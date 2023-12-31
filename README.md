@@ -2,13 +2,19 @@
 
 ## 概要
 
-このプロジェクトは、Denoを使用したWebサーバーのテンプレートです。
+新年まであと何秒かカウントダウンするします。
 
 ## 必要なもの
 
 - Deno
 
-## セットアップ
+## Usage
+
+### Deploy
+
+[Deno Deploy](https://countdown-to-new-year.deno.dev/)
+
+### cmd
 
 ```sh
 git clone <リポジトリのURL>

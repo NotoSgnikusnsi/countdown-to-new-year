@@ -13,7 +13,9 @@ function getRemainingTime() {
 function update() {
   const showTimeArea = document.getElementById("time");
   const remainingTime = getRemainingTime();
-  if (remainingTime > 31532400) {
+  const currentTime = new Date();
+  const newYearTime = new Date(currentTime.getFullYear(), 0, 1, 1, 0, 0);
+  if (currentTime < newYearTime) {
     showTimeArea.innerText = 'Happy New Year!';
     confetti({
       particleCount: 100,

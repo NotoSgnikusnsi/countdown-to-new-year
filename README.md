@@ -1,4 +1,4 @@
-# template-deno
+# countdown-to-new-year
 
 ## 概要
 
